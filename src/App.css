@@ -1,0 +1,208 @@
+.App {
+  margin: 50px auto;
+  width: 300px;
+}
+
+.titleBar {
+  background: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid #4d4d4d;
+}
+
+.titleBar input {
+  color: rgb(4, 202, 154);
+  height: 30px;
+  font-size: 24px;
+  width: 140px;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+.titleBar input:hover {
+  border-bottom: 2px solid rgb(4, 202, 154);
+}
+
+.titleBar button, .mainBar__inputBar button {
+  background: white;
+  border: 2px solid rgb(4, 202, 154);
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+
+.titleBar button i, .mainBar__inputBar button i {
+  color: rgb(4, 202, 154);
+  transition: 0.3s ease;
+}
+
+.titleBar button:hover, .mainBar__inputBar button:hover {
+  background: rgb(4, 202, 154);
+}
+
+.titleBar button:hover i, .mainBar__inputBar button:hover i {
+  color: white;
+}
+
+.mainBar {
+  border: 1px solid #4d4d4d;
+  border-top: none;
+}
+
+.mainBar__tableHead {
+ background-image: url('./Assets/green.jpg');
+ background-repeat: repeat;
+ font-weight: bold;
+ display: flex;
+ color: #4d4d4d;
+ user-select: none;
+}
+
+.mainBar__tableHead div {
+  cursor: pointer;
+  border: 1px solid #4d4d4d;
+  border-bottom: 2px solid #4d4d4d;
+  border-top: none;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 149px;
+  height: 26px;
+  line-height: 26px;
+  overflow: hidden;
+}
+.mainBar__tableHead__name:hover {
+  background: rgb(4, 202, 154);
+}
+.mainBar__tableHead__amount:hover {
+  background: rgb(4, 202, 154);
+}
+
+.mainBar__tableHead button {
+  border: none;
+  background: transparent;
+  height: 24px;
+  width: 20px;
+  color: #4d4d4d;
+  cursor: pointer;
+}
+
+.mainBar__tableData {
+  max-height: 129px;
+  overflow-y: auto;
+}
+
+.mainBar__tableData > div:first-child > div {
+  border-top: none;
+  height: 25px;
+}
+
+.mainBar__tableData > div > div {
+  border: 1px solid #4d4d4d;
+  color: #4d4d4d;
+  padding: 0 5px;
+  height: 26px;
+  line-height: 26px;
+  overflow: hidden;
+}
+
+.mainBar__tableData > div > div:first-child {
+  width: 149px;
+  float: left;
+}
+
+.mainBar__tableData > div > div:nth-child(2) {
+ margin-left: 149px;
+}
+
+.mainBar__inputBar {
+  background-image: url('./Assets/grey.jpg');
+  display: flex;
+  font-size: 16px;
+}
+.mainBar__inputBar > div {
+  border: 1px solid #4d4d4d;
+  padding: 0 5px;
+  height: 42px;
+  width: 149px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainBar__inputBar > div:nth-child(1) input {
+  border: 2px solid rgb(4, 202, 154);
+  height: 30px;
+  width: 137px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #4d4d4d;
+  padding-left: 3px;
+}
+
+.mainBar__inputBar > div:nth-child(2) > div {
+  display: flex;
+  align-items: center;
+}
+
+.mainBar__inputBar > div:nth-child(2) > div span {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  height: 30px;
+  width: 15px;
+  background: rgb(4, 202, 154);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.mainBar__inputBar > div:nth-child(2) > div input {
+  border: 2px solid rgb(4, 202, 154);
+  border-left: none;
+  height: 30px;
+  width: 87px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  font-size: 16px;
+  color: #4d4d4d;
+  padding-left: 3px;
+}
+
+.mainBar__error {
+  color: white;
+  background: #e60000;
+  border: 1px solid #4d4d4d;
+  padding-left: 5px;
+  height: 26px;
+  line-height: 26px;
+}
+
+.mainBar__totalBar {
+  display: flex;
+  color: #e60000;
+}
+
+.mainBar__totalBar div {
+  border: 1px solid #4d4d4d;
+  width: 149px;
+  padding-left: 5px;
+  height: 26px;
+  line-height: 26px;
+}
+
+.mainBar__totalBar div:nth-child(1) {
+  border-right: none;
+}
+
+.mainBar__totalBar div:nth-child(2) {
+  border-left: none;
+}
