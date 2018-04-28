@@ -1,2 +1,3 @@
-React Widget
-Available on: https://vrubliuk.github.io/expenses-widget/
+Expenses widget.
+Written on React.
+Available here: https://vrubliuk.github.io/expenses-widget/
