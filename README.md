@@ -1,2 +1,2 @@
 React Widget
-Available on: https://vrubliuk.github.io/widget/
+Available on: https://vrubliuk.github.io/expenses-widget/
